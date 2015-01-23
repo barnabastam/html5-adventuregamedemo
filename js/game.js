@@ -47,8 +47,7 @@ function showWin(){
 	ctx.font         = '30px verdana';
 	ctx.textBaseline = 'top';
 	ctx.fillText('Ye! you made it!', 30, 0);
-	ctx.fillText('thank you, andersonferminiano.com', 30, 30);
-	ctx.fillText('@andferminiano', 30, 60);	
+	ctx.fillText('thank you, https://plus.google.com/u/0/103004293987522135135/posts', 30, 30);
 }
 
 function handleInteractions(){
@@ -75,10 +74,10 @@ function handleInteractions(){
 	
 	// left/right arrows
 	if (keys[37]){
-		vel.x = -60;
+		vel.x = -10;
 	}
 	else if (keys[39]){
-		vel.x = 60;
+		vel.x = 10;
 	}
 	
 	
